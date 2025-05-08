@@ -8,7 +8,7 @@ dotenv.config();
 const app = express();
 const port = 3000;
 app.use(cors({
-  origin: 'https://github.com/Kennytobiloba/contactmanager.git', 
+  origin:'https://databasecontactmanager-luxd.vercel.app/', 
   credentials: true
 }));
 // Connect to MongoDB
